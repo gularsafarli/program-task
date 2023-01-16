@@ -1,0 +1,97 @@
+﻿using System;
+
+namespace ConsoleApp15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           //1. Verilmiş a, b, c ədədləri üzərindən ən kiçiyini tapan program
+            //int a = 35;
+            //int b = 18;
+            //int c = 22;
+            //if (a > b)
+            //{
+            //    if (a > c)
+            //    {
+            //        Console.WriteLine(a);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(c);
+            //    }
+
+            //}
+            //else if (b > c)
+            //{
+            //    Console.WriteLine(b);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(c);
+            //}
+
+
+
+
+
+            // 2. Verilmiş ədədlər siyahısındaki ən böyük ədədi tapan proqram
+            //int[] numbers = { 12, 3, 69, 11, 78, 156, 90 };
+            //int max = numbers[0];
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] > max)
+            //    {
+            //        max = numbers[i];
+            //    }
+            //}
+            //Console.WriteLine(max);
+
+
+
+            //3.Verilmiş ədədlər siyahısındaki 3 - ə bölünən ədədlərin ədədi ortaslnl(ortalamasını) tapan proqram
+
+            //int[] array = { 21, 11, 13, 14, 15, 17, 27 };
+            //int sum = 0;
+            //double count = 0;
+
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    if (array[i] % 3 == 0)
+            //    {
+            //        sum += array[i];
+            //        count++;
+            //    }
+
+            //}
+            //Console.WriteLine(sum / count);
+
+
+
+            // 4. Verilmiş ədədlər siyahısında 3 rəqəmli ədəd olub olmadığını tapan program
+
+            //int[] nums = { 12, 111, 3456, 789 };
+            //int count = 0;
+
+            //for (int i = 0; i < nums.Length; i++)
+            //{
+            //    if (nums[i] > 99 && nums[i] < 1000)
+            //    {
+            //        count++;
+            //    }
+
+            //if (count != 0)
+            //{
+            //    Console.WriteLine("3 reqemli eded var");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("3 reqemli eded yoxdur");
+            //}
+
+
+
+
+        }
+    }
+}
